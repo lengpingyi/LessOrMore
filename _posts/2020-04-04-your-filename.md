@@ -1,0 +1,16 @@
+---
+published: false
+---
+
+* content
+{:toc}
+
+## 一、安装谷歌浏览器
+
+下载地址：[官网在线安装](https://www.google.com/intl/zh-CN_ALL/chrome/)&nbsp; [离线安装](https://www.google.com/intl/en/chrome/?standalone=1)
+一步步安装就好
+![](https://www.google.com/chrome/static/images/heroes/browser_ntp.png)
+## 二、安装谷歌访问助手
+下载地址：[蓝奏云](https://www.lanzous.com/i5d1ydg)
+1、解压谷歌上网助手压缩包，将解压后的文件夹移至电脑其他位置，确定后***不可再移动或删除***。
+2、打开Chrome浏览器，在搜索栏输入：chrome://extensions/，打开界面右上角的【开发者模式】，点击【加载已解压的扩展程序】，选择刚刚移动的***文件夹***，确定【选择文件夹】，完成后点击右上角相应图标注册账号，即可免费使用Google以及系列产品。
