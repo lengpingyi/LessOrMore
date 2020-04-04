@@ -1,0 +1,47 @@
+---
+layout: default
+title: 分类
+header: Posts By Book
+---
+
+<div class="container docs-container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="sidebar hidden-print" role="complementary">
+        <div id="navigation">
+        	<h1>目录</h1>
+      		<ul class="nav sidenav">
+				{% if site.books.first[0] == null %}
+					{% for book in site.books %} 
+				    	<li><a href="#{{ book }}-ref">
+				    		{{ book | join: "/" }} <span style="color: #999999;" >({{ site.books[book].size }})</span>
+				    	</a></li>
+			    	{% endfor %}
+			  	{% else %}
+			    	{% for book in site.books %} 
+				    	<li><a href="#{{ book[0] }}-ref">
+				    		{{ book[0] | join: "/" }} <span style="color: #999999;" >({{ book[1].size }})</span>
+				    	</a></li>
+			    	{% endfor %}
+			  	{% endif %}
+          	</ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+          <div class="home">
+			{% for book in site.books %} 
+			  <h2 id="{{ book[0] }}-ref">{{ book[0] | join: "/" }}</h2>
+			  <ul>
+			    {% assign pages_list = book[1] %}  
+			    {% include LessOrMore/pages_list %}
+			  </ul>
+			{% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
