@@ -7,11 +7,14 @@
         <span class="icon-bar"></span>
       </button>
       <a href="/" class="navbar-brand">
-        <img src="{{ '/styles/images/logo.jpg' | prepend: site.baseurl }}">
+        <img src="{{ '/' | prepend: site.baseurl }}">
       </a>
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav">    
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="{{ '/' | prepend: site.baseurl }}">Leng pingyi</a>
+        </li>
         <li>
           <a href="{{ '/' | prepend: site.baseurl }}">Home</a>
         </li>
@@ -32,7 +35,6 @@
             <li><a rel="nofollow" target="_blank" href="{{site.github}}">Github</a></li>
             <li><a rel="nofollow" target="_blank" href="{{site.resume_site}}">关于作者</a></li>
             <li><a rel="nofollow" href="{{ '/books' | prepend: site.baseurl }}">我的书单</a></li>
-            <li><a rel="nofollow" href="http://www.hifreud.com/domains/">域名管理</a></li>
             <li><a rel="nofollow" href="{{ '/reference' | prepend: site.baseurl }}">推荐博客</a></li>
             <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}">RSS订阅</a></li>
             <li class="divider"></li>
