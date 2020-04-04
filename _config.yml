@@ -1,15 +1,15 @@
 # Site settings
-name: Leng pingyi
-email: 1837738944@qq.com
+name: Pingyi's Blog
+email: 
 author: Lengpingyi
 url: 
-resume_site: http://www.hifreud.com/Resume.io/
-github: https://github.com/luoyan35714/
+resume_site: 
+github: 
 baseurl: ""
-description: Actually, less is more!
-meta_description: 冷平一;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
-motto: It's our wits that make us men.
-banner: 求高得中，求中得低，求低则一无所有！
+description: 每一个你讨厌的现在，都有一个不够努力的曾经。
+meta_description: 冷平一;个人博客;学而不思则罔；思而不学则殆
+motto: “不见其增，日有所长。”
+banner: 
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
